@@ -5,8 +5,7 @@
 h3{
     font-family:'Courier New', Courier, monospace;
     font-weight:bold;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
 }
 
 form{
