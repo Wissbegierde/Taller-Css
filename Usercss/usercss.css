@@ -1,4 +1,11 @@
-*{box-sizing:border-box;}
+*{  box-sizing:border-box;
+    background-color:#ffe3b3;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    display:inline-block;
+}
 
 form{
 	width:300px;
@@ -8,46 +15,47 @@ form{
 	background-color:#ffb173;
 }
 
-form label{
+form fieldset{
+    border-radius:10px;
+    border-color: #c9294f;
+}
+
+form legend{
 	width:72px;
+    font-family:'Courier New', Courier, monospace;
 	font-weight:bold;
 	display:inline-block;
 }
 
 form input[type="text"],
-form input[type="email"]{
+form input[type="password"]{
 	width:180px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:8px 0;
+    font-family:'Courier New', Courier, monospace;
 	display:inline-block;
+}
+
+form select{
+    font-family:'Courier New', Courier, monospace;
+    background-color:#f6f6f6;
 }
 
 form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
 	margin-top:32px;
-	border:1px solid #000;
+	border:1px;
 	border-radius:5px;
 	display:block;
 	color:#fff;
-	background-color:#000;
+	background-color:#c9294f;
 } 
 
 form input[type="submit"]:hover{
 	cursor:pointer;
-}
-
-textarea{
-	width:100%;
-	height:100px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;			
-	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
-	resize:none;
-	display:block;
+    background-color: #74182e;
 }
