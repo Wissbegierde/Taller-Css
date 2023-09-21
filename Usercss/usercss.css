@@ -4,7 +4,9 @@
 
 h3{
     font-family:'Courier New', Courier, monospace;
-    display:inline-block;
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form{
@@ -25,6 +27,7 @@ form legend{
     font-family:'Courier New', Courier, monospace;
 	font-weight:bold;
 	display:inline-block;
+    background-color: transparent;
 }
 
 form input[type="text"],
