@@ -8,15 +8,16 @@ div{
 }
 
 h3{
-    font-family:'Courier New', Courier, monospace;
-    font-weight:bold;
+  	font-family:'Courier New', Courier, monospace;
+  	font-weight:bold;
+	margin:auto;
 }
 
 form{
 	width:300px;
 	padding:16px;
 	border-radius:10px;
-    margin:auto;
+ 	margin:auto;
 	background-color:#ffb173;
 }
 
