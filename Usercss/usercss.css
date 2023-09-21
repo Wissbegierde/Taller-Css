@@ -4,13 +4,13 @@
 
 div{
     position: relative;
-    vertical-align: middle;
 }
 
 h3{
   	font-family:'Courier New', Courier, monospace;
   	font-weight:bold;
 	margin:auto;
+	vertical-align: middle;
 }
 
 form{
