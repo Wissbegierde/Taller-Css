@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Formulario punto 2</title>
+    <style>
+        body{
+            background-color:#ffe3b3;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <h3 class="text-center">Formulario</h3>
+
+    <form action="" method="post">
+    
+    <fieldset class="border rounded border-danger p-3">
+        <legend class="text-center">Datos Personales</legend>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" maxlength="25">
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" class="form-control" id="apellidos" name="apellidos" maxlength="25">
+        </div>
+
+        <div class="form-group">
+            <label for="direccion">Dirección</label>
+            <input type="text" class="form-control" id="direccion" name="direccion" maxlength="45">
+        </div>
+
+        <div class="form-group">
+            <label for="pais">País</label>
+            <select class="form-control" id="pais" name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option> 
+                <option value="Chile">Chile</option> 
+                <option value="Colombia">Colombia</option> 
+                <option value="Costa Rica">Costa Rica</option> 
+                <option value="Cuba">Cuba</option> 
+                <option value="Ecuador">Ecuador</option> 
+                <option value="El Salvador">El Salvador</option> 
+                <option value="Espana">España</option> 
+                <option value="Guatemala">Guatemala</option>
+                
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset class="border rounded border-danger p-3 mt-3">
+        <legend class="text-center">Datos de Login</legend>
+        <div class="form-group">
+            <label for="nusuario">Nombre de usuario</label>
+            <input type="text" class="form-control" id="nusuario" name="nusuario" maxlength="20">
+        </div>
+
+        <div class="form-group">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" class="form-control" id="contrasena" name="contrasena">
+        </div>
+    </fieldset>
+
+    <div class="text-center mt-3 ">
+        <input type="submit" class="btn btn-danger" name="enviar" value="Guardar cambios" />
+    </div>
+    </form>
+</div>
+
+</body>
+</html>
