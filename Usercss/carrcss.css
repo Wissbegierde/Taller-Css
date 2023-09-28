@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box;
+    background-color: #6f002a;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    
+	text-align: center;
+    
+}
+input::placeholder {
+    color: white;
+}
+.login{
+    background-color:black;
+
+}

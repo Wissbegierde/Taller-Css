@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrcss.css">
+    
+
+</head>
+
+<body>
+    <div class="login">
+        <form action="">
+            <h2 class="custom-h2">Matriculación Auto</h2>
+            <div class="input-box">
+                <input type="text" name="id_car" placeholder="ID auto">
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <select id="id-movidoa" name="id-movidoa[]">
+                    <option value="" disabled selected>Tipo de combustible</option>
+                    <option value="gasolina">Gasolina</option>
+                    <option value="diesel">Diésel</option>
+                    <option value="gas-natural">Gas Natural</option>
+                    <option value="electrico">Eléctrico</option>
+                    <option value="hibrido">Híbrido</option>
+                </select>
+
+            </div>
+            <div class="input-box">
+                <select id="tipos-auto" name="tipos-autos[]">
+                    <option value="" disabled selected>Tipo de auto</option>
+                    <option value="sedan">Sedán</option>
+                    <option value="camioneta">Camioneta</option>
+                    <option value="deportivo">Deportivo</option>
+                    <option value="SUV">SUV </option>
+                    <option value="hatchback">Hatchback</option>
+                    <option value="coupe">Coupé</option>
+                    <option value="convertible">Convertible</option>
+                    <option value="pickup">Pickup</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <select id="estados-auto" name="estados-auto[]">
+                    <option value="" disabled selected>Estado del auto</option>
+                    <option value="nuevo">Nuevo</option>
+                    <option value="usado">Usado</option>
+                    <option value="en-reparacion">En Reparación</option>
+                    <option value="en-alquiler">En Alquiler</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <select id="marcas" name="marcas[]">
+                    ><option value="" disabled selected> Marca del auto</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                    <option value="BmW">BmW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Jaguar">Jaguar</option>
+                    <option value="Land Rover">Land Rover</option>
+                </select>
+
+            </div>
+            <div class="input-box">
+                <select id="tipo-id" name="tipo-id">
+                   <option value="" disabled selected>ID usuario</option>
+                    <option value="cedula">Cédula</option>
+                    <option value="pasaporte">Pasaporte</option>
+                    <option value="licencia">Licencia de Conducir</option>
+                    <option value="tarjeta">Tarjeta de Identificación</option>
+                    <option value="otro">Otro</option>
+                  </select>
+
+
+            </div>
+            <div class="input-box">
+                <input type="text" name="modelo" placeholder="Modelo auto" maxlength="60">
+            </div>
+            <div class="input-box">
+                <input type="text" name="anio" placeholder="Año auto" maxlength="4">
+            </div>
+            <div class="input-box">
+                <input type="text" name="detalle" placeholder="Detalle auto">
+            </div>
+            <div class="input-box">
+                <input type="number" id="caja" name="caja" step="1" placeholder="Caja auto">
+            </div>
+            <div class="input-box">
+                <input type="text" id="motor" name="motor" pattern="\d{1,2}\.\d{2}" placeholder="Motor auto">
+            </div>
+            <div class="input-box">
+                <input type="text" name="fecha-pub" placeholder="Fecha" maxlength="10">
+            </div>
+            <div class="input-box">
+                <input type="text" id="precio" name="precio" pattern="\d{1,6}\.\d{2}" placeholder="Precio">
+            </div>
+            <div class="input-box">
+                <input type="text" name="divisa" placeholder="Divisa" maxlength="3">
+            </div>
+           <div class="input-box">
+            <input type="text" id="cc-pic1" name="cc-pic1" maxlength="85" placeholder="Ingrese la descripción del carro 1">
+           </div>
+           <div class="input-box">
+            <input type="text" id="cc-pic2" name="cc-pic2" maxlength="85" placeholder="Ingrese la descripción del carro 2">
+           </div>
+           <div class="input-box">
+            <input type="text" id="cc-pic3" name="cc-pic3" maxlength="85" placeholder="Ingrese la descripción del carro 3">
+           </div>
+           <div class="input-box">
+            <input type="text" id="cc-pic3" name="cc-pic3" maxlength="2" placeholder="Destacado">
+           </div>
+
+           <button type="submit" class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">Registro</button>
+> 
+             
+        </form>
+    </div>
+</body>
+</html>
