@@ -1,16 +1,59 @@
 *{
     box-sizing:border-box;
     background-color: #6f002a;
-    color:white;
     font-family:'Courier New', Courier, monospace;
     
 	text-align: center;
     
 }
 input::placeholder {
-    color: white;
+    color: blanchedalmond;
 }
-.login{
-    background-color:black;
+/* Estilo general para el formulario */
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fcc304;
+    border-radius: 5px;
+    
+}
 
+/* Estilo para los campos de entrada */
+.input-box {
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo para los elementos <select> */
+.input-box select,
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff5733;
+    border-radius: 10px;
+    outline: none;
+    color:blanchedalmond;
+    background-color: #571845;
+}
+
+/* Estilo para el botón de registro */
+.login button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cambiar el cursor al pasar el ratón sobre el botón */
+.login button:hover {
+    background-color: #333;
+}
+
+h2{
+    color:blanchedalmond;
 }
